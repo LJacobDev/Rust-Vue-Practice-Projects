@@ -1,0 +1,22 @@
+
+p01-rust-vue-sqlite-blog
+
+Basic plan steps
+
+- set up a Rust back end using Rocket that can be accessed using curl commands
+
+    - added rocket create
+    - 
+
+- give it a basic ability to serve a Vue-based front end starting page
+
+- add a Vue form that enables writing a blog post with title, blog text, perhaps category selection
+
+- make the form submit a post request to the back end
+
+- create back end endpoint that accepts the post request with JSON and stores it as entry into sqlite database
+
+- make an endpoint that retrieves existing blog posts titles to be shown as a list of clickable titles in the frontend
+
+- when a title is clicked on, open the specific blog post and show in a template for reading the post contents
+
