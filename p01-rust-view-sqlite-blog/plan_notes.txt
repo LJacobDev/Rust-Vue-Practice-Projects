@@ -10,6 +10,9 @@ Basic plan steps
 
 - give it a basic ability to serve a Vue-based front end starting page
 
+    - added ability to go to localhost:8000/ and see the Vue 'you did it!' initial page
+
+
 - add a Vue form that enables writing a blog post with title, blog text, perhaps category selection
 
 - make the form submit a post request to the back end
