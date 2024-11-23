@@ -6,7 +6,7 @@ Basic plan steps
 - set up a Rust back end using Rocket that can be accessed using curl commands
 
     - added rocket create
-    - 
+    - set up basic boilerplate that can give a 'hello world' str when accessing localhost:8000
 
 - give it a basic ability to serve a Vue-based front end starting page
 
