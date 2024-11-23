@@ -12,9 +12,15 @@ Basic plan steps
 
     - added ability to go to localhost:8000/ and see the Vue 'you did it!' initial page
     - cleaned up scaffolding files, making a fresh slate to start making things
+    - added tailwindcss to help speed up UI building
 
 
 - add a Vue form that enables writing a blog post with title, blog text, perhaps category selection
+
+    - there should be a main root page that shows all the blog titles, or says "no posts" if none exist yet
+    - there should be a button that says "create post" and which takes the user to a new page that has a creation form.  It could be acceptable to simply make it into a component that dynamically replaces the blog title list component, but I prefer to make it something that 'loads a different page' like "/createpost" rather than handling it all on "/" with dynamic components
+
+
 
 - make the form submit a post request to the back end
 
